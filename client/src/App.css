@@ -1,0 +1,54 @@
+.header {
+  background-color: #ff363c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-family: "Press Start 2P", cursive;
+  border-bottom: 5px solid black;
+  padding: 0px 10px;
+}
+
+.content {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.search {
+  background-color: transparent;
+  max-width: 90%;
+  padding: 5px;
+  text-align: center;
+  font-size: x-large;
+  font-family: "Press Start 2P", cursive;
+  margin: 5vh 0vw;
+}
+
+.card {
+  height: 25vh;
+  max-width: 90%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+  display: flex;
+  padding: 5px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-family: "Press Start 2P", cursive;
+}
+
+.sprite {
+  min-width: 25%;
+  height: 20vh;
+}
+
+.text {
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+}
+
+.catchLine {
+  text-align: center;
+}
